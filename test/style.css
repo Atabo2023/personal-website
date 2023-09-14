@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr, 3fr;
+  background-color: blue;
+}
+
+.feature {
+  display: flex;
+  flex-direction: rows;
+  gap: 50px;
+  margin: 50px;
+}

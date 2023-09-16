@@ -70,7 +70,7 @@
 
 .personal-pic {
   display: block;
-  height: 50%;
+  height: 60%;
   width: 310px;
   border-radius: 8px;
 }
@@ -102,7 +102,7 @@
   font-weight: 600px;
   margin-bottom: 10px;
   font-family: "Rubik" sans-serif;
-  color: #333;
+  color: saddlebrown;
   text-align: center;
 }
 .personal-info {
@@ -111,9 +111,9 @@
   font-weight: 500;
   font-family: "Rubik" sans-serif;
   line-height: 1.5;
-  color: #333;
+  color: cadetblue;
   margin-right: 24px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .person-info {
@@ -184,7 +184,8 @@
   font-size: 18px;
   font-weight: 300;
   padding: 8px;
-  background-color: rgb(34, 90, 212);
+  background-color: #1d136e;
+  border: 1px solid #fff;
   margin-top: 10px;
   color: #fff;
   margin-left: auto;
@@ -213,11 +214,43 @@
   margin-top: 10px;
   text-transform: uppercase;
 }
+
+.animation-right {
+  display: block;
+  width: 310px;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  opacity: 0.5;
+}
+
 .description {
   margin-top: 77px;
   margin-bottom: 24px;
   font-size: 24px;
   font-weight: 500;
 }
+
 .secondary-feature {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 24px;
+}
+
+.btn-edge {
+  display: flex;
+  width: fit-content;
+  background-color: #2d1576;
+  border: 1px solid #ffff;
+  color: #ffffff;
+}
+
+.vertical-right {
+  display: flex;
+  justify-content: right;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
 }

@@ -70,9 +70,20 @@
 
 .personal-pic {
   display: block;
-  height: 60%;
+  height: 65%;
   width: 310px;
   border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.personal-pic {
+  transition: all 0.4s;
+}
+
+.personal-pic:hover {
+  transform: scale(0.99);
+  background-size: cover;
 }
 
 .feature {
@@ -93,27 +104,33 @@
   background-color: #fff;
   height: 80%;
   margin-right: 24px;
+  font-weight: 600;
   border-radius: 8px;
 }
 
 .vital-info {
+  display: block;
   text-transform: uppercase;
-  font-size: 24px;
   font-weight: 600px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   font-family: "Rubik" sans-serif;
   color: saddlebrown;
   text-align: center;
 }
 .personal-info {
   display: block;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   font-family: "Rubik" sans-serif;
   line-height: 1.5;
   color: cadetblue;
   margin-right: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 18px;
+}
+
+span-one {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .person-info {
@@ -157,7 +174,7 @@
   font-weight: 300;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .media-link {
@@ -185,7 +202,7 @@
   font-weight: 300;
   padding: 8px;
   background-color: #1d136e;
-  border: 1px solid #fff;
+  border: none;
   margin-top: 10px;
   color: #fff;
   margin-left: auto;
@@ -239,9 +256,13 @@
 .btn-edge {
   display: flex;
   width: fit-content;
-  background-color: #2d1576;
-  border: 1px solid #ffff;
-  color: #ffffff;
+  background-color: #ffff;
+  color: #2d1576;
+  position: absolute;
+  top: 170px;
+  font-weight: 600;
+  padding: 4px;
+  border: none;
 }
 
 .vertical-right {
@@ -251,6 +272,12 @@
   margin-right: 24px;
 }
 
-.grid--2-cols {
+span-strong {
+  color: saddlebrown;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.grid--2-footer {
   grid-template-columns: 1fr 1fr;
 }

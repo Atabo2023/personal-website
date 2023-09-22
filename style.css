@@ -20,16 +20,16 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  font-size: 24px;
+  font-size: 34px;
   margin-right: auto;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   color: #111037;
   background-color: #ffff;
   text-decoration: none;
   border: none;
   margin-left: 24px;
-  font-weight: 700;
+  font-weight: 750;
 }
 
 .main-nav {
@@ -89,6 +89,7 @@
 
 .feature {
   background-color: #f6f0f0;
+  height: 2%;
 }
 /* .information {
    background-image: linear-gradient(
@@ -101,23 +102,30 @@
   background-position: left;
 }  */
 
+.dialog {
+  background-color: #ffff;
+}
+
 .information {
   background-color: #111037;
   height: 72%;
-  margin-right: 24px;
+  margin-right: 2px;
   font-weight: 600;
 }
 
 .vital-info {
   display: block;
   text-transform: uppercase;
-  font-weight: 600px;
   margin-bottom: 18px;
   margin-top: 38px;
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   color: white;
   text-align: center;
+  font-size: 19px;
+  opacity: 0.9;
+  font-weight: 700;
 }
+
 .personal-info {
   display: block;
   font-size: 16px;
@@ -217,23 +225,19 @@ span-- {
   font-weight: 300;
   gap: 1px;
   height: 6%;
-  padding: 14px;
+  padding: 17px;
   background-color: #9186e0;
   border: none;
-  margin-top: 14px;
+  margin-top: 28px;
   color: white;
   margin-left: auto;
   margin-right: 20px;
   font-family: "Rubik", sans-serif;
 }
 
-.arrow {
-  background-color: #333;
-  /* border-radius: 30%; s*/
-  color: #fff;
-  /* font-size: 10px;
-  padding: 4px; */
-}
+/* .arrow {
+  
+} */
 
 .primary-feature {
   display: flex;
@@ -245,9 +249,9 @@ span-- {
   font-family: "Rubik" sans-serif;
 }
 .name {
-  font-size: 36px;
-  font-weight: 700;
-  font-family: "Rubik" sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  font-family: "Rubik", sans-serif;
   color: #111037;
   margin-top: 10px;
   text-transform: uppercase;
@@ -266,6 +270,8 @@ span-- {
   border-bottom: 1px solid #111037;
   padding-bottom: 24px;
   color: #111037;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
 }
 /* 
 .btn-edge {
@@ -289,9 +295,9 @@ span-- {
 }
 
 span-strong {
-  opacity: 0.5;
-  font-weight: 600;
-  font-size: 24px;
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 17px;
   color: #111037;
 }
 
@@ -312,6 +318,7 @@ span-strong {
 }
 span-call {
   margin-left: 20px;
+  color: #9186e0;
 }
 
 .call-edit {
@@ -319,4 +326,62 @@ span-call {
   height: 48;
   weight: 400;
   color: #111037;
+}
+
+/* SECTION SKILLs */
+
+.grid--2-cols {
+  grid-template-columns: 1fr, 1fr;
+}
+
+.skill {
+  margin-top: 38px;
+  border-top: 1px solid #111037;
+  font-size: 25px;
+  font-weight: 600;
+  color: #111037;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4%;
+  font-family: "Rubik", sans-serif;
+}
+
+.skill-text {
+  font-size: 28px;
+  color: #111037;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+}
+span-capital {
+  text-transform: uppercase;
+  font-family: "RUbik", sans-serif;
+}
+
+.skill-text span {
+  color: purple;
+}
+
+.skill-image {
+  display: flex;
+  height: 300;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: -2px;
+  height: 78px;
+}
+
+.edification {
+  display: flex;
+  color: red;
+}
+.skill-plus {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  color: #111037;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
 }

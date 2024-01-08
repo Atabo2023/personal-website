@@ -79,7 +79,11 @@
 }
 
 .personal-pic {
-  transition: all 0.4s;
+  transition: filter 0.4s;
+}
+
+.lazy-img {
+  filter: blur(20px);
 }
 
 .personal-pic:hover {
@@ -457,7 +461,7 @@ span-capital {
 
 .resume-icon {
   font-size: 18px;
-  color: #c5c5e1;
+  color: #111037;
   margin-right: 14px;
   font-weight: bold;
 }
@@ -651,3 +655,7 @@ span-lo {
   text-transform: uppercase;
   margin-left: 55px;
 }
+
+/* .icon-inner {
+  color: #111037;
+} */

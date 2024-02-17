@@ -4,6 +4,10 @@
   box-sizing: boarder-box;
 }
 
+html {
+  font-size: 60.5%;
+}
+
 .grid--2-cols {
   grid-template-columns: 1fr, 3fr;
 }
@@ -30,6 +34,7 @@
   border: none;
   margin-left: 24px;
   font-weight: 750;
+  height: 2.7rem;
 }
 
 .main-nav {
@@ -64,6 +69,10 @@
   margin-right: 30px;
 }
 
+.section-content {
+  width: 1340px;
+}
+
 .content {
   padding-top: 20px;
   margin-left: 24px;
@@ -73,7 +82,7 @@
 .personal-pic {
   display: block;
   height: 55%;
-  width: 310px;
+  width: 31rem;
   overflow: hidden;
   margin-bottom: 4px;
 }
@@ -137,7 +146,7 @@
   line-height: 1.5;
   color: cadetblue;
   margin-right: 52px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   text-align: center;
 }
 
@@ -172,8 +181,8 @@ span-- {
   font-weight: 400;
 }
 
-.media-handle {
-}
+/* .media-handle {
+} */
 .media-links {
   display: flex;
   font-weight: 600;
@@ -271,6 +280,7 @@ span-- {
   color: #111037;
   line-height: 1.5;
   font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
 }
 /* 
 .btn-edge {
@@ -307,8 +317,9 @@ span-strong {
 
 .footer-link {
   display: flex;
-  margin-top: 18px;
+  margin-top: 1.8rem;
   list-style: none;
+  font-size: 2rem;
 }
 
 .footer-call {
@@ -323,7 +334,7 @@ span-call {
 .call-edit {
   display: flex;
   height: 48;
-  weight: 400;
+  font-weight: 400;
   color: #111037;
 }
 
@@ -331,6 +342,7 @@ span-call {
 
 .section-skill {
   height: 500px;
+  width: 1240px;
 }
 
 .grid--2-cols {
@@ -390,7 +402,9 @@ span-capital {
   margin-bottom: 7%;
 }
 
-/* section-resume */
+.section-resume {
+  width: 100%;
+}
 
 .grid--2-cols {
   grid-template-columns: 1fr, 3fr;
@@ -416,9 +430,9 @@ span-capital {
   width: 58%;
   margin-left: 20%;
 }
-.resume-b {
-  /* background-color: #111037; */
-}
+/* .resume-b { */
+/* background-color: #111037; */
+/* } */
 
 .resume-name {
   font-size: 32px;
@@ -658,4 +672,19 @@ span-lo {
 
 /* .icon-inner {
   color: #111037;
+} */
+
+/* .cards { 
+/* margin-top: 61px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  background-color: #111037;
+  margin-left: 202px;
+  border-radius: 10rem 1rem 10rem 1rem;
+} */
+
+/* .complete {
+  margin-top: 60px;
 } */

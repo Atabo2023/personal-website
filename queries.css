@@ -3,11 +3,10 @@
 /* ///////////////////////////////////// */
 
 @media (max-width: 84em) {
-  .section {
+  /* .section {
     max-width: 120rem;
     /* max-height: 2.5rem; */
-  }
-  .logo {
+  */ .logo {
     max-width: 2.4rem;
   }
 
@@ -33,7 +32,7 @@
   }
 
   .btn-skill {
-    width: 35rem;
+    width: 31rem;
     font-size: 2rem;
   }
 
@@ -60,3 +59,83 @@
     line-height: 1.2;
   }
 }
+
+/* @media (max-width: 71em) {
+  .personal-info span {
+    font-size: 2rem;
+  }
+} */
+
+@media (max-width: 66em) {
+  .main-nav {
+    padding: 0;
+  }
+}
+
+@media (max-width: 64em) {
+  .main-nav {
+    display: none;
+  }
+
+  @media (max-width: 59em) {
+    .btn-skill {
+      width: 31rem;
+      display: block;
+      top: 150rem;
+      left: 20rem;
+      background-color: no repeat;
+      position: sticky;
+      margin-top: 4rem;
+
+      /* margin-right: 10rem */
+      /* margin-bottom: none; */
+      /* display: none; */
+    }
+
+    .resume-about {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 60em) {
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .logo {
+    display: block;
+    position: relative;
+    top: -1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 20em) {
+  .fearture {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 51em) {
+  .card {
+    position: sticky;
+  }
+}
+
+/* @media screen and (min-width: 1200px) {
+  .menu {
+    width: 30%;
+  }
+} */

@@ -118,9 +118,9 @@
       /* display: none; */
     }
 
-    .contact {
+    /* .contact {
       margin-right: 16rem;
-    }
+    } */
 
     .primary-feature {
       display: none;
@@ -221,6 +221,12 @@
 
   .btn-mobile-nav {
     display: block;
+  }
+}
+
+@media (max-width: 40em) {
+  .contact {
+    position: sticky;
   }
 }
 

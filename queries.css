@@ -137,6 +137,11 @@
     .information {
       height: 74%;
     }
+
+    html,
+    body {
+      overflow-x: hidden;
+    }
   }
 
   @media (max-width: 56em) {

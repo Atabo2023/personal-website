@@ -57,10 +57,8 @@
     font-size: 2rem;
     padding-bottom: 2.4rem;
     line-height: 1.1;
-    margin-right: 1rem;
-    /* justify-content: left;
-    text-align: left; */
-    /* align-items: center; */
+    /* margin-right: 1rem; */
+    margin-left: 1rem;
   }
 
   .information {
@@ -122,8 +120,16 @@
       /* display: none; */
     }
 
+    .footer-link {
+      margin-left: 1rem;
+    }
+
     .personal-pic {
       height: 33rem;
+    }
+
+    .content-primary {
+      margin-left: 0;
     }
 
     /* .contact {
@@ -153,6 +159,7 @@
 
     .description {
       margin-top: 2.4rem;
+      margin-left: 1rem;
     }
 
     .resume-dialog {

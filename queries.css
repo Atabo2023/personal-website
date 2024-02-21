@@ -122,6 +122,10 @@
       /* display: none; */
     }
 
+    .personal-pic {
+      height: 33rem;
+    }
+
     /* .contact {
       margin-right: 16rem;
     } */
@@ -149,6 +153,10 @@
 
     .description {
       margin-top: 2.4rem;
+    }
+
+    .resume-dialog {
+      height: 80vh;
     }
   }
 

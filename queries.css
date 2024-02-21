@@ -56,7 +56,11 @@
   .secondary-feature {
     font-size: 2rem;
     padding-bottom: 2.4rem;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-right: 1rem;
+    /* justify-content: left;
+    text-align: left; */
+    /* align-items: center; */
   }
 
   .information {
@@ -131,7 +135,7 @@
     }
 
     .resume-about {
-      margin-top: 0;
+      margin-top: 4rem;
     }
 
     .information {
@@ -141,6 +145,10 @@
     html,
     body {
       overflow-x: hidden;
+    }
+
+    .description {
+      margin-top: 2.4rem;
     }
   }
 
@@ -201,8 +209,8 @@
 
   .resume-pic {
     display: flex;
-    margin-top: 3px;
-    height: 180px;
+    margin-top: 0.3rem;
+    height: 12rem;
     width: 28%;
     margin-left: 37%;
     /* margin-left: 62%; */

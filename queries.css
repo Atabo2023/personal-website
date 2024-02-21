@@ -58,6 +58,10 @@
     padding-bottom: 2.4rem;
     line-height: 1.2;
   }
+
+  .information {
+    height: 74%;
+  }
 }
 
 /* @media (max-width: 71em) {
@@ -66,6 +70,12 @@
   }
 } */
 
+@media (max-width: 73em) {
+  .fearture {
+    display: block;
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 66em) {
   .main-nav {
     padding: 0;
@@ -74,8 +84,24 @@
 
 @media (max-width: 64em) {
   .main-nav {
-    display: none;
+    /* 1) Hide it visually  */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it fron screen reader */
+    visibility: hidden;
   }
+
+  /* .section {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+  } */
 
   @media (max-width: 59em) {
     .btn-skill {
@@ -95,21 +121,27 @@
     .resume-about {
       margin-top: 0;
     }
-  }
-
-  @media (max-width: 60em) {
-    .cards {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
 
     .information {
       height: 74%;
     }
+  }
+
+  @media (max-width: 56em) {
+    .header {
+      position: sticky;
+    }
+  }
+
+  @media (max-width: 60em) {
+    .cards {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
 
     span-- {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 400;
     }
   }
@@ -117,29 +149,62 @@
   .logo {
     display: block;
     position: relative;
-    top: -1rem;
+    top: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 5.4rem;
   }
 }
 
-@media (max-width: 20em) {
-  .fearture {
-    display: grid;
-    grid-template-columns: 1fr;
+@media (max-width: 54em) {
+  .feature {
+    display: block;
+    width: 97%;
+    height: 100%;
+    margin-right: 0;
   }
 
+  .resume-feature {
+    display: block;
+  }
   .cards {
     position: sticky;
     justify-content: center;
     align-items: center;
   }
+
+  .resume-pic {
+    display: flex;
+    margin-top: 3px;
+    height: 193px;
+    width: 28%;
+    margin-left: 37%;
+    /* margin-left: 62%; */
+  }
+
+  .section-skill {
+    width: 130%;
+  }
+
+  /* .resume-name {
+    position: relative;
+    right: -24rem;
+  } */
+
+  /* .text-area {
+    position: absolute;
+    top: 246rem;
+  } */
 }
 
 @media (max-width: 51em) {
   .card {
     position: sticky;
+  }
+
+  .btn-mobile-nav {
+    display: block;
   }
 }
 
@@ -147,4 +212,9 @@
   .menu {
     width: 30%;
   }
+} */
+
+/* .feature {
+  display: grid;
+  grid-template-columns: 1fr
 } */

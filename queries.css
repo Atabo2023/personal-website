@@ -114,8 +114,8 @@
       background-color: no repeat;
       position: sticky;
       margin-top: 4rem;
+      /* margin-right: 100%; */
 
-      /* margin-right: 10rem */
       /* margin-bottom: none; */
       /* display: none; */
     }
@@ -150,6 +150,10 @@
 
     .achievement {
       margin-left: 2rem;
+    }
+
+    .edu-resume1 {
+      opacity: 0;
     }
 
     /* .gen-l {

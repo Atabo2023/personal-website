@@ -290,11 +290,11 @@ span-- {
 
 .secondary-feature {
   border-bottom: 1px solid #111037;
-  padding-bottom: 24px;
+  padding-bottom: 2rem;
   color: #111037;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Rubik", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 /* 
 .btn-edge {
@@ -392,7 +392,7 @@ span-call {
   line-height: 1.5;
 }
 span-capital {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "RUbik", sans-serif;
 }
 
@@ -680,6 +680,7 @@ span-lo {
   line-height: 1.3;
   font-weight: 500;
   margin-bottom: 18px;
+  list-style: none;
 }
 
 .about-tent {
@@ -694,6 +695,26 @@ span-lo {
   margin-bottom: 12px;
   text-transform: uppercase;
   margin-left: 55px;
+}
+
+.resume-nysc {
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 18px;
+  font-weight: 750;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  color: #111037;
+  margin-top: 28px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.nysc {
+  width: 19%;
+  height: 4rem;
+  position: relative;
+  top: -15px;
+  /* position: absolute; */
 }
 
 /* .icon-inner {

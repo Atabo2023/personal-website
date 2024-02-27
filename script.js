@@ -39,7 +39,7 @@ console.log("Hello world!");
 //   headerEl.classList.toggle("nav-open");
 
 // LAZY LOADING IMAGE
-const mainNav = document.querySelector(".mainNav");
+const mainNav = document.querySelector(".main-nav");
 const imgTargets = document.querySelectorAll("img[data-src]");
 
 // callback function
@@ -86,7 +86,7 @@ const mainNavObserver = new IntersectionObserver(stickyNav, {
   rootMargin: `-90px`,
 });
 
-mainNavObserver.observe(mainNav);
+mainNavObserver.observe(main - nav);
 
 // TUTORIAL #198 (REVEALLING ELEMENTS ON SROLL)
 

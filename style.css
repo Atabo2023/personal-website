@@ -366,7 +366,7 @@ span-call {
 }
 
 .grid--2-cols {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr, 1fr;
 }
 
@@ -497,7 +497,7 @@ span-capital {
 .resume-icon {
   font-size: 18px;
   color: #111037;
-  margin-right: 14px;
+  /* margin-right: 14px; */
   font-weight: bold;
 }
 
@@ -505,7 +505,7 @@ span-capital {
   display: flex;
   color: #111037;
   font-size: 18px;
-  margin-right: 14px;
+  /* margin-right: 14px; */
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -714,6 +714,7 @@ span-lo {
   height: 4rem;
   position: relative;
   top: -15px;
+  position: sticky;
   /* position: absolute; */
 }
 

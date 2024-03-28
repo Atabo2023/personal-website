@@ -99,6 +99,8 @@ html {
   width: 100%;
   overflow: hidden;
   margin-bottom: 0.4rem;
+  transform: translateY(100vh);
+  transform: translateY(0);
 }
 
 .personal-pic {
@@ -716,6 +718,29 @@ span-lo {
   top: -15px;
   position: sticky;
   /* position: absolute; */
+}
+
+@keyframes bounce {
+  from {
+    animation-time: 0%;
+    opacity: 0.5;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-name: personal-pic;
+  }
+
+  to {
+    animation-time: 100%;
+    opacity: 1;
+  }
+}
+
+.personal-pic {
+  /* display: block; */
+  /* animation: test 3s linear forwards; */
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
 }
 
 /* .icon-inner {

@@ -86,7 +86,7 @@ const mainNavObserver = new IntersectionObserver(stickyNav, {
   rootMargin: `-90px`,
 });
 
-mainNavObserver.observe(main - nav);
+// mainNavObserver.observe(main - nav);
 
 // TUTORIAL #198 (REVEALLING ELEMENTS ON SROLL)
 
@@ -110,3 +110,6 @@ allSection.forEach(function (section) {
   sectionObserver.observe(section);
   // section.classList.add("section--hidden");
 });
+
+const nam = "victor";
+console.log(nam);
